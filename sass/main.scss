@@ -1,0 +1,19 @@
+$primary: #414141;
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+$website-colors: (
+    "darkestgreen": #4B6635,
+    "secondpink": #F5D7D7,
+    "darkestgrey": #414141,
+    "lightestgreen": #D0DCC6,
+    "thirdpink": #E6BEBE,
+    "secondgreen": #90AB79,
+    "thirdgreen": #597344,
+    "fourthpink": #D6A9A9
+);
+
+$theme-colors: map-merge($website-colors, $theme-colors);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
